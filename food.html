@@ -1,5 +1,6 @@
 <html lang="en">
 <link rel="stylesheet" href="CSS/Style.css">
+<script src="JS/script.js"></script>
 <head>
   <title>Home Page</title>
     <body>
@@ -88,33 +89,4 @@
   </ul>
 </footer>
 </main>
-
-<script>
-  function myFunction(x) {
-  x.classList.toggle("change");
-  }
-  </script>
-
-
-<script>
-function popFunction(){
-  var sideOpen = false;
-  if(sideOpen == false){
-    openPop();
-  } else if (sideOpen == true) {
-    closePop();
-  }
-}
-
-
-function openPop() {
-  document.getElementById('pop-menu').style.width="250px";
-  sideOpen = true;
-}
-
-function closePop() {
-  document.getElementById('pop-menu').style.width="0px";
-  sideOpen = false;
-}
-</script>
 </html>

@@ -244,8 +244,17 @@ display: flex;
 }
 
 .loginAside{
-  background-color: green;
   width: auto;
   height: auto;
 
+}
+
+.login-box{
+  background-color: #809848;
+  padding: 10%;
+  margin: 10%;
+
+}
+.calcMain{
+  margin-top: 70px;
 }

@@ -1,6 +1,7 @@
 <html lang="en">
 <head>
 <link rel="stylesheet" href="CSS/Style.css">
+<script src="JS/script.js"></script>
 <title>Home Page</title>
     <body>
       <header>
@@ -11,7 +12,7 @@
               <li class="nav-options"><a href="index.html">Home</a></li>
               <li class="nav-options"><a href="drinks.html">Drinks</a></li>
               <li class="nav-options"><a href="food.html">Recipes</a></li>
-              <li class="nav-options"><a href="offers.html">Offers</a></li>
+              <li class="nav-options"><a href="calorieCalc.html">Offers</a></li>
               <li><span onclick="openPop()" >
                 <div class="menu-container" onclick="myFunction(this)">
                   <div class="bar-1"></div>
@@ -32,15 +33,6 @@
   <a href="index.html">Contact Form</a>
 </div>
 <main>
-<!-- Creates button
-<button id="hello_btn">Hello</button>
- <script>
- document.getElementById(' hello_btn').onclick = function() {
- var text_node = document.createTextNode('Napier!');
- document.body.appendChild(text_node);
- };
- </script>
--->
   <h2>About Us</h2>
     <ul class="flex-container">
       <li class="flex-box">
@@ -103,22 +95,4 @@
   </ul>
 </footer>
 </main>
-
-<script>
-  function myFunction(x) {
-  x.classList.toggle("change");
-  }
-  </script>
-
-
-<script>
-function openPop() {
-  document.getElementById('pop-menu').style.width="250px";
-}
-
-function closePop() {
-  document.getElementById('pop-menu').style.width="0px";
-}
-
-</script>
 </html>
