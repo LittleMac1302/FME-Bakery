@@ -1,10 +1,12 @@
 *{
   padding: 0;
   margin: 0;
+
 }
 
 main {
   background-color: #E8E8E8;
+
 }
 
 ul{
@@ -96,7 +98,6 @@ h2{
 }
 footer{
   background-color: #0E7C7B;
-  margin-top: 30px;
 }
 
 .flex-container{
@@ -155,8 +156,10 @@ overflow-x: hidden;
 .Socials{
   text-align: center;
   display: inline-flex;
+  flex-shrink: 0;
 
 }
+
 .bottom{
   text-align: center;
 }
@@ -166,12 +169,11 @@ overflow-x: hidden;
  margin-left: 25%;
  margin-right: 25%;
  margin-top: 15px;
- margin-bottom: auto;
+ margin-bottom: 50px;
  width: 50%;
  border: 3px solid black;
  background-color: #809848;
  color: white;
-
 }
 
 .home-time-table{
@@ -243,18 +245,206 @@ display: flex;
   padding-left: 20px;
 }
 
-.loginAside{
-  width: auto;
-  height: auto;
-
+.loginpage{
+  height: 100%;
+  width: 100%;
 }
 
 .login-box{
-  background-color: #809848;
-  padding: 10%;
-  margin: 10%;
+  background-color: 809848;
+  padding-left: 30px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  width: 60%;
+  text-align: center;
+  box-shadow: 5px 10px #0E7C7B;
+
 
 }
+
+.contact-form{
+  background-color: #809848;
+  padding-left: 50px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  padding-right: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5%;
+  height: auto;
+  width: 40%;
+  text-align: center;
+
+}
+
+.divider{
+  width: 80%;
+  height: 3px;
+  background-color: black;
+  display: flex;
+  margin-top: 35px;
+  margin-bottom: 25px;
+  margin-left: 10%;
+}
+
+.infobox1{
+  height: 400px;
+  width: 90%;
+  border: solid;
+  border-color: #809848;
+  margin-top: 50px;
+  margin-left: 5%;
+}
+
+.infobox2{
+  height: 400px;
+  width: 40%;
+  border: solid;
+  border-color: #809848;
+  margin-top: 50px;
+  margin-left: 5%;
+}
+
+.infobox3{
+  display: inline-block;
+  height: 400px;
+  width: 45%;
+  border: solid;
+  border-color: #809848;
+  margin-top: 50px;
+  margin-left: 5%;
+}
+
+.boxmix{
+  display: inline-flex;
+  display: flex;
+}
+
+.regain-details{
+  width: 80%;
+  height: 40%;
+  margin-left: 10%;
+  background-color: #809848;
+}
+
+.form-divider{
+  width: 50%;
+  height: 1px;
+  margin-left: 25%;
+  margin-bottom: 10%;
+  margin-top: 10%;
+  background-color: black;
+}
+
 .calcMain{
   margin-top: 70px;
+  background-color: #809848;
+  width: 30%;
+  height: 60%;
+  margin-left: 10%;
+  margin-bottom: 10%;
+  display: inline-flex;
+  display: block;
+}
+
+.vertical-divider-2{
+  background-color: black;
+  width: 1px;
+  height: 50%;
+  margin-left: 5%;
+  display: inline-flex;
+  display: flex;
+}
+
+.calcbox1{
+  height: 400px;
+  width: 90%;
+  background-color: #A7C2CC;
+  margin-top: 50px;
+  margin-left: 5%;
+  box-shadow: 5px 10px #0E7C7B;
+}
+
+.calcbox2{
+  height: 450px;
+  width: 40%;
+  background-color: #A7C2CC;
+  margin-top: 50px;
+  margin-left: 5%;
+  box-shadow: 5px 10px #0E7C7B;
+}
+
+.calcbox3{
+  display: inline-block;
+  height: 450px;
+  width: 45%;
+  background-color: #A7C2CC;
+  margin-top: 50px;
+  margin-left: 5%;
+  box-shadow: 5px 10px #0E7C7B;
+}
+
+.calcboxmix{
+  display: inline-flex;
+  display: flex;
+  margin-bottom: 70px;
+}
+
+.calorieNumbers{
+  padding: 20%;
+  text-align: justify;
+  text-align: center;
+}
+
+.login-input-border{
+background-color: white;
+background-size: auto;
+padding: 5px;
+box-shadow: 5px 8px grey;
+margin-left: 25%;
+margin-right: 25%;
+}
+
+.contact-input-border{
+margin-right: 25%;
+margin-left: 25%;
+background-color: white;
+padding: 2%;
+box-shadow: 5px 8px lightgrey;
+}
+
+.calorieInfo{
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 15px;
+  margin: 2%;
+}
+
+.boxheader{
+  font-family: cursive;
+  font-weight: bolder;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+  color: #DE6B48;
+  margin-top: 20px;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+.boxheader2{
+  font-family: cursive;
+  font-weight: bolder;
+  font-style: italic;
+  text-decoration: underline;
+  text-align: center;
+  color: #DE6B48;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  font-size: 25px;
 }

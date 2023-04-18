@@ -11,10 +11,12 @@ function closePop() {
 }
 
 function popFunction(){
-  var sideOpen = false;
+  let sideOpen = false;
   if(sideOpen == false){
     openPop();
+    sideOpen = true;
   } else if (sideOpen == true) {
     closePop();
+    sideOpen = false;
   }
 }
