@@ -2,21 +2,30 @@ function myFunction(x) {
   x.classList.toggle("change");
 }
 
-function openPop() {
+function openSide() {
   document.getElementById('pop-menu').style.width="250px";
 }
 
-function closePop() {
+function closeSide() {
   document.getElementById('pop-menu').style.width="0px";
+
 }
 
-function popFunction(){
-  let sideOpen = false;
-  if(sideOpen == false){
-    openPop();
-    sideOpen = true;
-  } else if (sideOpen == true) {
-    closePop();
-    sideOpen = false;
+function openOption(evt, cityName){
+  var i,  miniNavContent, miniNavOptions;//Counter in the for loop
+ //declares the content
+  //declares links
+
+  miniNavContent = document.getElementsByClassName('miniNavContent');
+  for(i = 0; i < miniNavContent.length; i++){
+    miniNavContent[i].style.display = "none";
   }
+
+  miniNavOptions = document.getElementsByClassName('miniNavOptions');
+  for (i = 0; i < miniNavOptions.length; i++) {
+    miniNavOptions[i].className = miniNavOptions[i].className.replace(" active", "");
+  }
+
+document.getElementById(cityName).style.display = "block";
+evt.currentTarget.className += " active";
 }

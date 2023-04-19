@@ -13,7 +13,7 @@
               <li class="nav-options"><a href="drinks.html">Drinks</a></li>
               <li class="nav-options"><a href="food.html">Recipes</a></li>
               <li class="nav-options"><a href="calorieCalc.html">Calculator</a></li>
-              <li><span onclick="openPop()" >
+              <li><span onclick="openSide()" >
                 <div class="menu-container" onclick="myFunction(this)">
                   <div class="bar-1"></div>
                   <div class="bar-2"></div>
@@ -27,10 +27,10 @@
   </body>
 </head>
 <div id="pop-menu" class="sidePop">
-  <a href="javascript:void(0)" class="closePop" onclick="closePop()">Return</a>
   <a href="login.html">Login</a>
-  <a href="index.html">Sign Up</a>
+  <a href="signuppage.html">Sign Up</a>
   <a href="contactform.html">Contact Form</a>
+  <a href="" class="closePop" onclick="closeSide()">Close</a>
 </div>
 <h2 style="margin-top: 70px;">Calories</h2>
 <div class="calcbox1">
@@ -40,8 +40,8 @@
   the avergae person should consume 2000-2500 calories a day to stay healthy.
   When it comes to burning calories not everyone burn them at te same rates in
   the same ways, this is where many people begin to get confused when trying to get
-  in shape.</p>
-  <br></br>
+  in shape.</b></p>
+
   <h2 class="boxheader2">Gaining and losing weight...</h2>
   <p class="calorieInfo"><b>
   When it comes to getting in shape it is important to keep track of how many
@@ -56,32 +56,44 @@
 </div>
 <div class="calcboxmix">
 <div class="calcbox2">
+  <h2 class="boxheader">Calorie Intake...</h2>
   <form class="calorieNumbers" method="post">
     <div class="input-border">
-      <label>Calories in Breakfast</label>
-      <input type="number" name="calOne" value="calOne">
+      <label>Calories in Breakfast:</label>
+      <input type="number" name="calOne" value="calOne" id="calTwo">
     </div>
     <br></br>
     <div class="input-border">
-      <label>Calories in Lunch</label>
-      <input type="number" name="calOne" value="calTwo">
+      <label>Calories in Lunch:</label>
+      <input type="number" name="calOne" value="calTwo" id="calTwo">
     </div>
         <br></br>
     <div class="input-border">
-      <label>Calories in Dinner</label>
-      <input type="number" name="calOne" value="calThree">
+      <label>Calories in Dinner:</label>
+      <input type="number" name="calOne" value="calThree" id="calThree">
     </div>
   <br></br>
   <div class="input-border">
     <label>Calories in Snacks:</label>
-    <input type="number" name="calOne" value="calFour">
+    <input type="number" name="calOne" value="calFour" id="calFour">
   </div>
 <br></br>
-    <button type="button" name="button">Calculate</button>
   </form>
 </div>
 <div class="calcbox3">
-<h2 class="boxheader">Calorie Intake...</h2>
+<h2 class="boxheader">Biggest Calorie Intakes...(Per 100g)</h2>
+<ul class="bigCal">
+  <li class="cal-background"><b>Granola: 489Cal</b></li>
+  <br>
+  <li class="cal-background"><b>Chicken Legs: 184Cal</b></li>
+  <br>
+  <li class="cal-background"><b>Frim Tofu: 144Cal</b></li>
+  <br>
+  <li class="cal-background"><b>Salmon: 206Cal</b></li>
+  <br>
+  <li class="cal-background"><b>Avacados: 160Cal</b></li>
+
+</ul>
 </div>
 </div>
 <footer>
@@ -98,3 +110,4 @@
 </footer>
 </main>
 </html>
+https://www.myfooddata.com/articles/highest-calorie-foods.php
